@@ -1,0 +1,82 @@
+@media (max-width: 1980px) and (min-width: 775px){
+    body{
+    }
+    main{
+        width: 70%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+    }
+    #img{
+        height: 100%;
+        background: url('../images/image-product-desktop.jpg') no-repeat center center;
+        background-size: cover;
+
+        border-radius: 20px 0px 0px 20px;
+    }
+    #infs{
+        height: 100%;
+        margin-top: 0px;
+    }
+    #gabrielle{
+        font-size: 30px;
+    }
+    #button{
+        height: 50px;
+    }
+    #preco #sert{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1490px) and (min-width: 975px){
+    main{
+        height: 60%;
+    }
+    #infs{
+        gap: 40px;
+    }
+    #descri{
+        font-size: 20px;
+    }
+    #preco{
+        margin-top: 0px;
+    }
+    #preco #sert{
+        font-size: 60px;
+    }
+    #tra{
+        font-size: 20px;
+    }
+    #button{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1980px) and (min-width: 1000px){
+    main{
+        width: 65%;
+        height: 60%;
+    }
+    #infs{
+        gap: 30px;
+    }
+    #preco{
+        margin-top: 0px;
+        height: 15%;
+    }
+    #preco #sert{
+        font-size: 40px;
+    }
+    #tra{
+        font-size: 18px;
+    }
+    #button{
+        font-size: 18px;
+    }
+}
+@media (max-width: 1980px) and (min-width: 1440px){
+    main{
+        width: 50%;
+    }
+}

@@ -31,6 +31,7 @@
 
 @media (max-width: 1490px) and (min-width: 975px){
     main{
+        width: 90%;
         height: 60%;
     }
     #infs{
@@ -77,6 +78,6 @@
 }
 @media (max-width: 1980px) and (min-width: 1440px){
     main{
-        width: 50%;
+        width: 80%;
     }
 }
